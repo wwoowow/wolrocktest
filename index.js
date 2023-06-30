@@ -92,26 +92,26 @@ resim mesajları
 */
 
 client.on('messageCreate', msg => {
-  if (msg.content.toLowerCase() === 'oğuz') {
+  if (msg.content.toLowerCase() === '!oğuz') {
     msg.channel.send('https://cdn.discordapp.com/attachments/1074086478222729338/1124021503281868911/IMG_20230615_201022_108.jpg');
   }
 });
 
 client.on('messageCreate', msg => {
-  if (msg.content.toLowerCase() === 'oğuz saz') {
+  if (msg.content.toLowerCase() === '!oğuz saz') {
     msg.channel.send('https://cdn.discordapp.com/attachments/1012301667171053608/1124306579282468975/IMG_20230630_145157_481.jpg');
   }
 });
 
 client.on('messageCreate', msg => {
-  if (msg.content.toLowerCase() === 'efe') {
+  if (msg.content.toLowerCase() === '!efe') {
     msg.channel.send('https://cdn.discordapp.com/attachments/1012301667171053608/1124306579685118033/IMG_20230630_145153_425.jpg');
   }
 });
 
 
 client.on('messageCreate', msg => {
-  if (msg.content.toLowerCase() === 'berat') {
+  if (msg.content.toLowerCase() === '!berat') {
     msg.channel.send('https://cdn.discordapp.com/attachments/1018218523664846888/1117155810091487353/beratnew2.png');
   }
 });
@@ -131,5 +131,11 @@ client.on('messageCreate', msg => {
 client.on('messageCreate', msg => {
   if (msg.content.toLowerCase() === '!eray') {
     msg.channel.send('https://cdn.discordapp.com/attachments/1012301667171053608/1124307428398346290/Screenshot_20230629-152812.jpg');
+  }
+});
+
+client.on('messageCreate', msg => {
+  if (msg.content.toLowerCase() === '!zehra') {
+    msg.channel.send('https://cdn.discordapp.com/attachments/1106725228178067476/1124308459119190168/IMG-20230317-WA0059.jpg');
   }
 });
