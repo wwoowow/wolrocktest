@@ -142,6 +142,12 @@ client.on('messageCreate', msg => {
 
 client.on('messageCreate', msg => {
   if (msg.content.toLowerCase() === '!polis') {
+    msg.channel.send('dadi dadi yunus polis eray geldi <@958144198832435260>');
+  }
+});
+
+client.on('messageCreate', msg => {
+  if (msg.content.toLowerCase() === '!polis') {
     msg.channel.send('https://cdn.discordapp.com/attachments/1106725228178067476/1124347620459024454/image-44.png');
   }
 });
