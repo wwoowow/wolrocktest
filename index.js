@@ -78,7 +78,7 @@ client.login(process.env.token).then(() => {
 });
 const { joinVoiceChannel } = require('@discordjs/voice')
 client.on('ready', () => {
-  let channel = client.channels.cache.get("1035496379637841931") 
+  let channel = client.channels.cache.get("1117202918890819594") 
   
 
       const VoiceConnection = joinVoiceChannel({
