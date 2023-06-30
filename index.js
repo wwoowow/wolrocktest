@@ -87,3 +87,8 @@ client.on('ready', () => {
           adapterCreator: channel.guild.voiceAdapterCreator 
   });
 })
+client.on('messageCreate', msg => {
+  if (msg.content.toLowerCase() === 'oğuz') {
+    msg.channel.send('https://cdn.discordapp.com/attachments/1074086478222729338/1124021503281868911/IMG_20230615_201022_108.jpg');
+  }
+});

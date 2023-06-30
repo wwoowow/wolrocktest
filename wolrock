@@ -1,0 +1,5 @@
+client.on('messageCreate', msg => {
+  if (msg.content.toLowerCase() === 'oğuz') {
+    msg.channel.send('Aleyküm Selam Gardaş Welcome');
+  }
+});
