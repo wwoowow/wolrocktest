@@ -9,7 +9,7 @@ module.exports = {
     console.log(`${client.user.tag} Aktif!`);
     const activities = [
       "beratada tten!",
-      "efeye tten"
+      "efeye tten",
     ]
     
     setInterval(async() => {

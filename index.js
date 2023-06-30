@@ -87,8 +87,49 @@ client.on('ready', () => {
           adapterCreator: channel.guild.voiceAdapterCreator 
   });
 })
+/*
+resim mesajları
+*/
+
 client.on('messageCreate', msg => {
   if (msg.content.toLowerCase() === 'oğuz') {
     msg.channel.send('https://cdn.discordapp.com/attachments/1074086478222729338/1124021503281868911/IMG_20230615_201022_108.jpg');
+  }
+});
+
+client.on('messageCreate', msg => {
+  if (msg.content.toLowerCase() === 'oğuz saz') {
+    msg.channel.send('https://cdn.discordapp.com/attachments/1012301667171053608/1124306579282468975/IMG_20230630_145157_481.jpg');
+  }
+});
+
+client.on('messageCreate', msg => {
+  if (msg.content.toLowerCase() === 'efe') {
+    msg.channel.send('https://cdn.discordapp.com/attachments/1012301667171053608/1124306579685118033/IMG_20230630_145153_425.jpg');
+  }
+});
+
+
+client.on('messageCreate', msg => {
+  if (msg.content.toLowerCase() === 'berat') {
+    msg.channel.send('https://cdn.discordapp.com/attachments/1018218523664846888/1117155810091487353/beratnew2.png');
+  }
+});
+
+client.on('messageCreate', msg => {
+  if (msg.content.toLowerCase() === '!gelirmi') {
+    msg.channel.send('https://cdn.discordapp.com/attachments/1018218523664846888/1115660484406939678/image.png');
+  }
+});
+
+client.on('messageCreate', msg => {
+  if (msg.content.toLowerCase() === '!berat2') {
+    msg.channel.send('https://cdn.discordapp.com/attachments/1018218523664846888/1117153424740458516/image.png');
+  }
+});
+
+client.on('messageCreate', msg => {
+  if (msg.content.toLowerCase() === '!eray') {
+    msg.channel.send('https://cdn.discordapp.com/attachments/1012301667171053608/1124307428398346290/Screenshot_20230629-152812.jpg');
   }
 });
