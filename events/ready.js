@@ -8,11 +8,8 @@ module.exports = {
   run: async(client, message) => {
     console.log(`${client.user.tag} Aktif!`);
     const activities = [
-      "🎫 | Destek sistemi ile sunucuna destek sistemi kur!",
-      "👮🏽‍♂️ | Captcha sistemi ile sunucunu güvene al!",
-      "🌟 | Botlist sistemi ile sunucunu kolaylaştır!",
-      "💙 | Moderasyon komutları ile sunucunu çok daha pratik yap!",
-      "➕ | Yapay zeka kayıt sistemi ile sunucuna bir renk kat!"
+      "beratada tten!",
+      "efeye tten"
     ]
     
     setInterval(async() => {

@@ -11,7 +11,7 @@ module.exports = {
     let odasi = db.fetch(`oda_${interaction.user.id}`)
     if (!odasi) return interaction.reply("<:carpi:1040649840394260510> | Sana ait bir oda bulamadım!")
     const embed = new EmbedBuilder()
-   .setTitle("Silex - Özel Oda Sistemi!")
+   .setTitle("wolrock - Özel Oda Sistemi!")
    .setDescription("Aşağıdaki butondan özel odana kullanıcı ekleyebilirsin!")
    .setColor("#ff0000")
    const row = new Discord.ActionRowBuilder()

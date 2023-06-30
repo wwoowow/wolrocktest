@@ -67,7 +67,7 @@ module.exports = {
             .setColor("Red")
             .setTitle("Yetersiz Yetki!")
             .setDescription("<:carpi:1040649840394260510> | > Bu komutu kullanabilmek için `Yönetici` yetkisine sahip olmalısın!")
-            .setFooter({ text: "Silex" })
+            .setFooter({ text: "wolrock" })
 
         if (!interaction.member.permissions.has(Discord.PermissionsBitField.Flags.Administrator)) return interaction.reply({ embeds: [yetki], ephemeral: true })
 
@@ -101,14 +101,14 @@ module.exports = {
             .setColor("Green")
             .setTitle("<:tik:1039607067729727519> | Başarıyla Ayarlandı!")
             .setDescription("<:tik:1039607067729727519> | Botlist sistemi başarıyla ayarlandı!")
-            .setFooter({ text: "Silex" })
+            .setFooter({ text: "wolrock" })
 
 
             const menu = new Discord.EmbedBuilder()
             .setColor("000000")
             .setTitle("<:soru:1039607065045385256> | Botumu Nasıl Eklerim?")
             .setDescription("> Aşağıdaki **Bot Ekle** butonuna basarak botunu ekleyebilirsin!")
-            .setFooter({ text: "Silex" })
+            .setFooter({ text: "wolrock" })
   
         const row11 = new Discord.ActionRowBuilder()
   

@@ -52,7 +52,7 @@ module.exports = {
         }
 
         const category = await guild.channels.create({
-            name: 'Silex Ticket',
+            name: 'wolrock Ticket',
             type: Discord.ChannelType.GuildCategory,
             permissionOverwrites: [
               {
@@ -75,7 +75,7 @@ module.exports = {
             .setTitle("<:soru:1039607065045385256> | Destek talebi nasıl açabilirim?")
             .setDescription("> Aşağıdaki **Destek Talebi Oluştur** butonuna basarak destek talebi oluşturabilirsin!")
 			.setThumbnail(interaction.guild.iconURL({ dynamic: true }))
-            .setFooter({ text: "Silex" })
+            .setFooter({ text: "wolrock" })
   
         const row11 = new Discord.ActionRowBuilder()
   

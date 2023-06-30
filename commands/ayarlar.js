@@ -28,7 +28,7 @@ module.exports = {
     const levelSystem = db.fetch(`acikmiLevel_${interaction.guild.id}`) ? "<:tik:1039607067729727519> | Açık" : "<:carpi:1040649840394260510> | Kapalı";
 
     const embed = new EmbedBuilder()
-    .setTitle("<:ayarlar:1039607040898781325> | Silex - Ayarlar Menüsü!")
+    .setTitle("<:ayarlar:1039607040898781325> | wolrock - Ayarlar Menüsü!")
     .addFields(
       { name: "**Botlist Sistemi:**", value: `${botlistSystem}`, inline: true },
       { name: "**Buton Rol Sistemi**", value: `${butonrolSystem}`, inline: true  },

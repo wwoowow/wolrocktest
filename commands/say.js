@@ -17,7 +17,7 @@ module.exports = {
         const retmekişi = interaction.guild.members.cache.filter(o => !o.user.bot && o.presence && o.presence.status === 'dnd').size
 
     const embed = new EmbedBuilder()
-    .setTitle('Silex Bot')
+    .setTitle('wolrock Bot')
     .setThumbnail(`${interaction.guild.iconURL({ dynamic: true })}`)
     .setFooter({text: interaction.user.tag+" İstedi."})
     .setDescription(`<:member:1039607059357913098> | Toplam Üye: **${interaction.guild.memberCount}** ( Çevrimiçi: **${onlinekişi}** | Boşta: **${boştakişi}** | Rahatsız Etmeyin **${retmekişi}** )\n<:tik:1039607067729727519> | Gerçek: **${memberCount}**\n<:uyari:1040649846400499712> | Sahte: **${fakeMemberCount}**\n<:bot:1039607042291269703> | Bot: **${botCount}**\n<:guardian:1044325535800635422> | Yönetici Yetkili: **${permissionsMemberCount}**`)

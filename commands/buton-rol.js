@@ -31,7 +31,7 @@ module.exports = {
 
  let buttonid = rol.name
  const embed = new EmbedBuilder()
- .setTitle("Silex - Buton Rol Al Sistemi!")
+ .setTitle("wolrock - Buton Rol Al Sistemi!")
  .setDescription(`${yazı}`)
  .setColor("#ff0000")
  const row = new Discord.ActionRowBuilder()

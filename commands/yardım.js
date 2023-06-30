@@ -10,9 +10,9 @@ module.exports = {
   run: async(client, interaction) => {
 
     const embed = new EmbedBuilder()
-    .setAuthor({ name: "Silex Yardım Menüsü", iconURL: client.user.displayAvatarURL({ dynamic: true })})
+    .setAuthor({ name: "wolrock Yardım Menüsü", iconURL: client.user.displayAvatarURL({ dynamic: true })})
     .setTitle("・Hangi komutlarım hakkında bilgi almak istiyorsan o butona bas!")
-    .setDescription("\n\n**<:links:1039607057923461181> Linkler**\n> <:bot:1039607042291269703>・**Botun davet linki: [Tıkla](https://discord.com/api/oauth2/authorize?client_id=1038372156578480199&permissions=8&scope=bot%20applications.commands)**\n> <:duyuru:1039607050734403657>・**Botun destek sunucusu: [Tıkla](https://discord.gg/SY7aMsVpUJ)**\n> <:newmember:1044325552007422052>・**Botun gizlilik politikası: [Tıkla](https://github.com/araschain/Silex-Bot-Privacy-Policy)**")
+    .setDescription("helpme mada faka")
     .setColor('Blue')
     const row1 = new Discord.ActionRowBuilder()
 

@@ -26,7 +26,7 @@ if (banner.includes('https')) {
 return interaction.reply({embeds: [embed]})
 } else if (!banner.includes('https')) {
   const embed = new EmbedBuilder()
-  .setDescription(`:x: Bu kullanıcıda banner bulunmamaktadır! \n\n 📔 Not: Hata olduğunu düşünüyorsanız [Discord](https://discord.gg/QtC7Cvh3MQ) sunucumuza gelebilir yada **bug** komutunu kullanabilirsiniz.`)
+  .setDescription(`:x: Bu kullanıcıda banner bulunmamaktadır! \n\n`)
   return interaction.reply({ embeds: [embed] });
   }  
 
