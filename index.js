@@ -139,3 +139,9 @@ client.on('messageCreate', msg => {
     msg.channel.send('https://cdn.discordapp.com/attachments/1106725228178067476/1124308459119190168/IMG-20230317-WA0059.jpg');
   }
 });
+
+client.on('messageCreate', msg => {
+  if (msg.content.toLowerCase() === '!polis') {
+    msg.channel.send('https://cdn.discordapp.com/attachments/1106725228178067476/1124347620459024454/image-44.png');
+  }
+});
