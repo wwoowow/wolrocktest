@@ -141,3 +141,9 @@ client.on('messageCreate', msg => {
     msg.channel.send('https://cdn.discordapp.com/attachments/1106725228178067476/1124347620459024454/image-44.png');
   }
 });
+
+client.on('messageCreate', msg => {
+  if (msg.content.toLowerCase() === '!berat3') {
+    msg.channel.send('https://cdn.discordapp.com/attachments/1012301667171053608/1125005449578696724/image.png');
+  }
+});
