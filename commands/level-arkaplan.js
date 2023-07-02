@@ -20,7 +20,7 @@ module.exports = {
     
     const link = options.getString("link")
    
-    if(!interaction.member.permissions.has(PermissionsBitField.SendMessages)) {
+    if(!interaction.member.permissions.has(PermissionsBitField.ManageMessages)) {
       return interaction.followUp({ content: "<:carpi:1040649840394260510> | Mesajları Yönet Yetkin Yok!" })
     }
 
