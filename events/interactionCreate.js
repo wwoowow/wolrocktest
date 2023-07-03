@@ -42,7 +42,7 @@ name: Discord.Events.InteractionCreate,
           const embed = new EmbedBuilder()
           .setAuthor({ name: `Kuralları kabul eden kişi sayısı: ${rulesizd}`, iconURL: client.user.displayAvatarURL({ dynamic: true })})
           .setTitle("> <:uyari:1040649846400499712>・Kuralları kabul etmek için **Kabul Ediyorum.** butonuna tıklayın!\n> <:yildiz:1039607072783868044>・Ama bunu yapmadan önce bi linklere göz atmanı isterim!")
-          .setDescription("\n\n**<:links:1039607057923461181> Linkler**\n> <:file:1044325532566822913>・**Botun kullanım koşulları: [Tıkla](https://github.com/araschain/Silex-Bot-Terms-Of-Service)**\n> <:newmember:1044325552007422052>・**Botun gizlilik politikası: [Tıkla](https://github.com/araschain/Silex-Bot-Privacy-Policy)**")
+          .setDescription("merak etme la sikmicez")
           .setColor('Blue')
           return interaction.reply({ embeds: [embed], components: [btn], ephemeral: true })
         }
@@ -99,7 +99,7 @@ name: Discord.Events.InteractionCreate,
     if(interaction.customId === idFind("kayitol")) {
       const kayitmodel = new ModalBuilder()
       .setCustomId('kayitform')  
-      .setTitle('Silex - Kayıt Menüsü!')
+      .setTitle('wolrock - Kayıt Menüsü!')
         const isim = new TextInputBuilder()
         .setCustomId('kayitisim')
         .setLabel('isim')
@@ -483,7 +483,7 @@ if(interaction.customId === 'giriscikis'){
         .setCustomId(".clearMessageButton_"+interaction.user.id)
       )
           const embed = new EmbedBuilder()
-          .setTitle("> <:mod:1039607060775571476> | Silex - Moderasyon Menüsü!")
+          .setTitle("> <:mod:1039607060775571476> | wolrock - Moderasyon Menüsü!")
           .addFields(
         { name: "**> <:slash:1041998751419605004> </ban-list:1039964202003079243>**", value: `> <:soru:1039607065045385256> **Banlı kullanıcıları gösterir!**`, inline: true },
         { name: "**> <:slash:1041998751419605004> </ban:1039964202003079244>**", value: `> <:soru:1039607065045385256> **Bir üyeyi yasaklarsın!**`, inline: true  },
@@ -563,7 +563,7 @@ if(interaction.customId === 'giriscikis'){
         .setCustomId(".clearMessageButton_"+interaction.user.id)
       )
       const embed = new Discord.EmbedBuilder()
-      .setTitle("> <:mod:1039607060775571476> | Silex - Moderasyon 2 Menüsü!")
+      .setTitle("> <:mod:1039607060775571476> | wolrock - Moderasyon 2 Menüsü!")
       .addFields(
         { name: "**> <:slash:1041998751419605004> </rol-oluştur:1039964202149879913>**", value: `> <:soru:1039607065045385256> **Rol oluşturursun!**`, inline: true  },
         { name: "**> <:slash:1041998751419605004> </rol-ver:1039964202149879914>**", value: `> <:soru:1039607065045385256> **Rol verirsin!**`, inline: true  },
@@ -640,7 +640,7 @@ if(interaction.customId === 'giriscikis'){
         .setCustomId(".clearMessageButton_"+interaction.user.id)
       )
       const embed = new Discord.EmbedBuilder()
-      .setTitle("> <:mod:1039607060775571476> | Silex - Moderasyon Menüsü!")
+      .setTitle("> <:mod:1039607060775571476> | wolrock - Moderasyon Menüsü!")
       .addFields(
         { name: "**> <:slash:1041998751419605004> </ban-list:1039964202003079243>**", value: `> <:soru:1039607065045385256> **Banlı kullanıcıları gösterir!**`, inline: true },
         { name: "**> <:slash:1041998751419605004> </ban:1039964202003079244>**", value: `> <:soru:1039607065045385256> **Bir üyeyi yasaklarsın!**`, inline: true  },
@@ -720,7 +720,7 @@ if(interaction.customId === 'giriscikis'){
             .setCustomId(".clearMessageButton_"+interaction.user.id)
           )
           const embed = new EmbedBuilder()
-          .setTitle("> <:ek:1039607052340834354> | Silex - Kayıt Menüsü!")
+          .setTitle("> <:ek:1039607052340834354> | wolrock - Kayıt Menüsü!")
           .addFields(
             { name: "**> <:slash:1041998751419605004> </kayıt-sistemi:1063887700786159709>**", value: `> <:soru:1039607065045385256> **Kayıt sistemini ayarlarsın!**`, inline: true },
           { name: "**> <:slash:1041998751419605004> </kayıt-sistemi-kapat:1063887700786159708>**", value: `> <:soru:1039607065045385256> **Kayıt sistemini kapatırsın**`, inline: true },
@@ -783,7 +783,7 @@ if(interaction.customId === 'giriscikis'){
             .setCustomId(".clearMessageButton_"+interaction.user.id)
           )
           const embed = new EmbedBuilder()
-          .setTitle("> <:member:1039607059357913098> | Silex - Kullanıcı Menüsü!")
+          .setTitle("> <:member:1039607059357913098> | wolrock - Kullanıcı Menüsü!")
           .addFields(
             { name: "**> <:slash:1041998751419605004> </avatar:1039964202003079242>**", value: `> <:soru:1039607065045385256> **Avatarına bakarsın!**`, inline: true },
             { name: "**> <:slash:1041998751419605004> </afk:1039964202003079241>**", value: `> <:soru:1039607065045385256> **Afk olursun!**`, inline: true  },
@@ -858,9 +858,9 @@ if(interaction.customId === 'giriscikis'){
         .setCustomId(".clearMessageButton_"+interaction.user.id)
       )
           const embed = new EmbedBuilder()
-          .setAuthor({ name: "Silex Sistemler Menüsü", iconURL: client.user.displayAvatarURL({ dynamic: true })})
+          .setAuthor({ name: "wolrock Sistemler Menüsü", iconURL: client.user.displayAvatarURL({ dynamic: true })})
           .setTitle("・Hangi komutlarım hakkında bilgi almak istiyorsan o butona bas!")
-          .setDescription("\n\n**<:links:1039607057923461181> Linkler**\n> <:bot:1039607042291269703>・**Botun davet linki: [Tıkla](https://discord.com/api/oauth2/authorize?client_id=1038372156578480199&permissions=8&scope=bot%20applications.commands)**\n> <:duyuru:1039607050734403657>・**Botun destek sunucusu: [Tıkla](https://discord.gg/SY7aMsVpUJ)**\n> <:newmember:1044325552007422052>・**Botun gizlilik politikası: [Tıkla](https://github.com/araschain/Silex-Bot-Privacy-Policy)**")
+          .setDescription("\n\n**<:links:1039607057923461181> Linkler**\n> <:bot:1039607042291269703>・**Botun davet linki: [Tıkla](https://discord.com/api/oauth2/authorize?client_id=1038372156578480199&permissions=8&scope=bot%20applications.commands)**\n> <:duyuru:1039607050734403657>・**Botun destek sunucusu: [Tıkla](https://discord.gg/SY7aMsVpUJ)**\n> <:newmember:1044325552007422052>・**Botun gizlilik politikası: [Tıkla](https://github.com/araschain/wolrock-Bot-Privacy-Policy)**")
           .setColor('Blue')
           interaction.update({embeds: [embed], components: [row, row2]})
       
@@ -869,7 +869,7 @@ if(interaction.customId === 'giriscikis'){
               if (!interaction.isButton()) return;
         if (interaction.customId == "korumasystem_"+interaction.user.id) {
           const embed = new Discord.EmbedBuilder()
-          .setTitle("> <:koruma:1044325545925672976> | Silex - Koruma Menüsü!")
+          .setTitle("> <:koruma:1044325545925672976> | wolrock - Koruma Menüsü!")
           .addFields(
             { name: "**> <:slash:1041998751419605004> </hesap-koruma:1069205098888171560>**", value: `> <:soru:1039607065045385256> **Hesap koruma sistemini açarsın!**`, inline: true },
             { name: "**> <:slash:1041998751419605004> </koruma-log:1069205098888171561>**", value: `> <:soru:1039607065045385256> **Koruma logunu ayarlarsın!**`, inline: true }
@@ -984,7 +984,7 @@ if(interaction.customId === 'giriscikis'){
         .setCustomId(".clearMessageButton_"+interaction.user.id)
       )
           const embed = new EmbedBuilder()
-          .setTitle("> <:bot:1039607042291269703> | Silex - Botlist Menüsü!")
+          .setTitle("> <:bot:1039607042291269703> | wolrock - Botlist Menüsü!")
           .addFields(
             { name: "**> <:slash:1041998751419605004> </botlist-ayarla:1039964202003079245>**", value: `> <:soru:1039607065045385256> **Botlist sistemini ayarlarsın!**`, inline: true }
           )
@@ -1045,7 +1045,7 @@ if(interaction.customId === 'giriscikis'){
         .setCustomId(".clearMessageButton_"+interaction.user.id)
       )
       const embed = new Discord.EmbedBuilder()
-      .setTitle("> <:ses:1041739960493019197> | Silex - Özel Oda Menüsü!")
+      .setTitle("> <:ses:1041739960493019197> | wolrock - Özel Oda Menüsü!")
       .addFields(
         { name: "**> <:slash:1041998751419605004> </özel-oda-sistemi:1041738859572105318>**", value: `> <:soru:1039607065045385256> **Özel Oda Sistemini ayarlarsın!**`, inline: true },
         { name: "**> <:slash:1041998751419605004> </özel-oda-sil:1041738859572105317>**", value: `> <:soru:1039607065045385256> **Özel Odanı silersin!**`, inline: true },
@@ -1059,9 +1059,9 @@ if(interaction.customId === 'giriscikis'){
         if (!interaction.isButton()) return;
         if (interaction.customId == "anasayfa_"+interaction.user.id) {
           const embed = new EmbedBuilder()
-          .setAuthor({ name: "Silex Yardım Menüsü", iconURL: client.user.displayAvatarURL({ dynamic: true })})
+          .setAuthor({ name: "wolrock Yardım Menüsü", iconURL: client.user.displayAvatarURL({ dynamic: true })})
           .setTitle("・Hangi komutlarım hakkında bilgi almak istiyorsan o butona bas!")
-          .setDescription("\n\n**<:links:1039607057923461181> Linkler**\n> <:bot:1039607042291269703>・**Botun davet linki: [Tıkla](https://discord.com/api/oauth2/authorize?client_id=1038372156578480199&permissions=8&scope=bot%20applications.commands)**\n> <:duyuru:1039607050734403657>・**Botun destek sunucusu: [Tıkla](https://discord.gg/SY7aMsVpUJ)**\n> <:newmember:1044325552007422052>・**Botun gizlilik politikası: [Tıkla](https://github.com/araschain/Silex-Bot-Privacy-Policy)**")
+          .setDescription("\n\n**<:links:1039607057923461181> Linkler**\n> <:bot:1039607042291269703>・**Botun davet linki: [Tıkla](https://discord.com/api/oauth2/authorize?client_id=1038372156578480199&permissions=8&scope=bot%20applications.commands)**\n> <:duyuru:1039607050734403657>・**Botun destek sunucusu: [Tıkla](https://discord.gg/SY7aMsVpUJ)**\n> <:newmember:1044325552007422052>・**Botun gizlilik politikası: [Tıkla](https://github.com/araschain/wolrock-Bot-Privacy-Policy)**")
           .setColor('Blue')
           const row = new Discord.ActionRowBuilder()
           .addComponents(
@@ -1171,7 +1171,7 @@ if(interaction.customId === 'giriscikis'){
         .setCustomId(".clearMessageButton_"+interaction.user.id)
       )
           const embed = new EmbedBuilder()
-          .setTitle("> <:yenilik:1044325577064190033> | Silex - Ticket Menüsü!")
+          .setTitle("> <:yenilik:1044325577064190033> | wolrock - Ticket Menüsü!")
           .addFields(
             { name: "**> <:slash:1041998751419605004> </destek-sistemi:1065718561311567995>**", value: `> <:soru:1039607065045385256> **Destek sistemini ayarlarsın!**`, inline: true },
             { name: "**> <:slash:1041998751419605004> </destek-sistemi-sıfırla:1065718561311567994>**", value: `> <:soru:1039607065045385256> **Destek sistemini sıfırlarsın!.**`, inline: true  }
@@ -1234,7 +1234,7 @@ if(interaction.customId === 'giriscikis'){
         .setCustomId(".clearMessageButton_"+interaction.user.id)
       )
           const embed = new EmbedBuilder()
-          .setTitle("> <:roket:1044325558563123312> | Silex - Level Menüsü!")
+          .setTitle("> <:roket:1044325558563123312> | wolrock - Level Menüsü!")
           .addFields(
             { name: "**> <:slash:1041998751419605004> </level-sistemi:1053000987285127254>**", value: `> <:soru:1039607065045385256> **Level sistemini açarsın!**`, inline: true },
             { name: "**> <:slash:1041998751419605004> </level-log ayarla:1053000987285127252>**", value: `> <:soru:1039607065045385256> **Level logu ayarlarsın!**`, inline: true },
@@ -1302,7 +1302,7 @@ if(interaction.customId === 'giriscikis'){
         .setCustomId(".clearMessageButton_"+interaction.user.id)
       )
           const embed = new EmbedBuilder()
-          .setTitle("> <:roket:1044325558563123312> | Silex - Captcha Menüsü!")
+          .setTitle("> <:roket:1044325558563123312> | wolrock - Captcha Menüsü!")
           .addFields(
             { name: "**> <:slash:1041998751419605004> </captcha-sistemi:1064125585166708918>**", value: `> <:soru:1039607065045385256> **Captcha sistemini açarsın!**`, inline: true },
             { name: "**> <:slash:1041998751419605004> </captcha-görüntüle:1064125585166708917>**", value: `> <:soru:1039607065045385256> **Captcha istatistiklerini görüntülersin!**`, inline: true },
@@ -1492,7 +1492,7 @@ if(interaction.customId === 'giriscikis'){
             interaction.guild.channels.create({name: "▬▬ SOHBET KANALLARI ▬▬", type: ChannelType.GuildCategory}).then(katagori2 => {
             interaction.guild.channels.create({name: "💬・sohbet", type: ChannelType.GuildText}).then(sohbet => {
                 const embed2 = new EmbedBuilder()
-                .setTitle('Silex Bot - İyi günler diler.')
+                .setTitle('wolrock Bot - İyi günler diler.')
                 .setDescription(`Unutma ${interaction.user}, senin için her şeyini ben ayarladım artık başka bir şey yapmana gerek yok.\n\nArtık sunucunu güvenli bir şekilde açabilirsin.`)
                 .setColor("Blue")
                 sohbet.send({embeds: [embed2]})
@@ -1659,7 +1659,7 @@ if(interaction.customId === 'giriscikis'){
             const yetki = new Discord.EmbedBuilder()
                 .setTitle("<:carpi:1040649840394260510> | Yetersiz Yetki!")
                 .setDescription("> Bu komutu kullanabilmek için `Yönetici` yetkisine ihtiyacın var!")
-                .setFooter({ text: "Silex" })
+                .setFooter({ text: "wolrock" })
                 .setColor("Red")
             if (!interaction.member.permissions.has(Discord.PermissionsBitField.Flags.ManageChannels)) return interaction.reply({ embeds: [yetki], ephemeral: true });
       
@@ -1671,7 +1671,7 @@ if(interaction.customId === 'giriscikis'){
           const yetkii = new Discord.EmbedBuilder()
               .setTitle("<:carpi:1040649840394260510> | Yetersiz Yetki!")
               .setDescription("> Bu komutu kullanabilmek için `Yönetici` yetkisine ihtiyacın var!")
-              .setFooter({ text: "Silex" })
+              .setFooter({ text: "wolrock" })
               .setColor("Red")
     
           const embed1 = new Discord.EmbedBuilder()
@@ -1694,7 +1694,7 @@ if(interaction.customId === 'giriscikis'){
       
       const mod = new ModalBuilder()
       .setCustomId('eklemenu')
-      .setTitle('Silex - Özel Oda Kullanıcı Ekleme!')
+      .setTitle('wolrock - Özel Oda Kullanıcı Ekleme!')
         const e = new TextInputBuilder()
         .setCustomId('uyeid')
         .setLabel('Kullanıcı ID')
@@ -1714,7 +1714,7 @@ if(interaction.customId === 'giriscikis'){
 
         const mod2 = new ModalBuilder()
         .setCustomId('eklemenu2')
-        .setTitle('Silex - Özel Oda Kullanıcı Çıkarma!')
+        .setTitle('wolrock - Özel Oda Kullanıcı Çıkarma!')
           const a = new TextInputBuilder()
           .setCustomId('cikarid')
           .setLabel('Kullanıcı ID')
@@ -1744,7 +1744,7 @@ if(interaction.customId === 'giriscikis'){
             const yetkiii = new Discord.EmbedBuilder()
                 .setTitle("<:carpi:1040649840394260510> | Yetersiz Yetki!")
                 .setDescription("> Bu komutu kullanabilmek için `Yönetici` yetkisine ihtiyacın var!")
-                .setFooter({ text: "Silex" })
+                .setFooter({ text: "wolrock" })
                 .setColor("Red")
       
             const embed1 = new Discord.EmbedBuilder()
@@ -1790,7 +1790,7 @@ if(interaction.customId === 'giriscikis'){
 		
 		        if(interaction.customId === `ticketnasilacilir_everyone`) {
         const embed = new Discord.EmbedBuilder()
-        .setAuthor({ name: "Silex Destek Menüsü", iconURL: client.user.displayAvatarURL({ dynamic: true })})
+        .setAuthor({ name: "wolrock Destek Menüsü", iconURL: client.user.displayAvatarURL({ dynamic: true })})
         .setTitle("・Destek talebi nasıl oluşturabilirsin.")
         .setDescription("**Destek Talebi Oluştur** butonuna tıkladıktan sonra karşına bir form gelecektir. O formu doldurduktan sonra destek talebin başarılı bir şekilde oluşturulacaktır.")
         .setImage(`https://cdn.discordapp.com/attachments/1059089831604531243/1065995534730534972/image.png`)
