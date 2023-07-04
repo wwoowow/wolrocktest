@@ -785,6 +785,19 @@ if(interaction.customId === 'giriscikis'){
           const embed = new EmbedBuilder()
           .setTitle("> <:member:1039607059357913098> | wolrock - Kullanıcı Menüsü!")
           .addFields(
+  
+
+
+            { name: "**> <:w_dikkat:1083755878374711336> !efe**", value: `> <:soru:1039607065045385256> **berata bakarsın!**`, inline: true },
+            { name: "**> <:w_dikkat:1083755878374711336> !berat**", value: `> <:soru:1039607065045385256> **berata bakarsın!**`, inline: true },
+            { name: "**> <:w_dikkat:1083755878374711336> !berat2**", value: `> <:soru:1039607065045385256> **berata bakarsın!**`, inline: true },
+            { name: "**> <:w_dikkat:1083755878374711336> !eray**", value: `> <:soru:1039607065045385256> **eraya bakarsın!**`, inline: true },
+            { name: "**> <:w_dikkat:1083755878374711336> !polis**", value: `> <:soru:1039607065045385256> **polis eraya bakarsın!**`, inline: true },
+            { name: "**> <:w_dikkat:1083755878374711336> !zehra**", value: `> <:soru:1039607065045385256> **zehraya bakarsın!**`, inline: true },
+            { name: "**> <:w_dikkat:1083755878374711336> !oğuz**", value: `> <:soru:1039607065045385256> **oğuza bakarsın!**`, inline: true },
+            { name: "**> <:w_dikkat:1083755878374711336> !oğuz saz**", value: `> <:soru:1039607065045385256> **oğuza bakarsın!**`, inline: true },
+            
+
             { name: "**> <:slash:1041998751419605004> </avatar:1039964202003079242>**", value: `> <:soru:1039607065045385256> **Avatarına bakarsın!**`, inline: true },
             { name: "**> <:slash:1041998751419605004> </afk:1039964202003079241>**", value: `> <:soru:1039607065045385256> **Afk olursun!**`, inline: true  },
             { name: "**> <:slash:1041998751419605004> </emoji-yazı:1039964202003079249>**", value: `> <:soru:1039607065045385256> **Bota emoji ile yazı!**`, inline: true  },
