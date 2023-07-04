@@ -20,6 +20,7 @@ module.exports = {
   run: async(client, interaction) => {
 
     if(!interaction.member.permissions.has(PermissionsBitField.Flags.BanMembers)) return interaction.reply({content: "<:carpi:1040649840394260510> | Üyeleri Yasakla Yetkin Yok!", ephemeral: true})
+
     const user = interaction.options.getMember('user')
     const sebep = interaction.options.getString('reason')
     if(user.permissions.has(PermissionsBitField.Flags.BanMembers)) return interaction.reply({content:"<:carpi:1040649840394260510> | Bu Kullanıcının Ban Yetkisi Olduğu İçin Onu Yasaklayamadım.   ",ephemeral:true})
