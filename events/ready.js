@@ -10,11 +10,12 @@ module.exports = {
     const activities = [
       "beratada tten!",
       "efeye tten",
+      "sus zehra"
     ]
     
     setInterval(async() => {
       client.user.setPresence({ activities: [{ name: `${activities[Math.floor(Math.random() * activities.length)]}` }], status: 'idle' });
-    }, 1000 * 15);
+    }, 100 * 15);
 	db.set(`botAcilis_`, Date.now())
 
 
