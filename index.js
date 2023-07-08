@@ -147,3 +147,9 @@ client.on('messageCreate', msg => {
     msg.channel.send('https://cdn.discordapp.com/attachments/1012301667171053608/1125005449578696724/image.png');
   }
 });
+
+client.on('messageCreate', msg => {
+  if (msg.content.toLowerCase() === '!oğuz ve zehra') {
+    msg.channel.send('https://cdn.discordapp.com/attachments/1018218523664846888/1127224990224367737/image.png');
+  }
+});
