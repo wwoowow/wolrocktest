@@ -153,3 +153,9 @@ client.on('messageCreate', msg => {
     msg.channel.send('https://cdn.discordapp.com/attachments/1018218523664846888/1127224990224367737/image.png');
   }
 });
+
+client.on('messageCreate', msg => {
+  if (msg.content.toLowerCase() === '!rte') {
+    msg.channel.send('https://cdn.discordapp.com/attachments/1074086478222729338/1130173943295258624/rte.png');
+  }
+});
